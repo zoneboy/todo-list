@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo application</title>
+	<link rel="stylesheet" type="text/css" href="todo.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<!-- This is the modal popup -->
+	<div id="mymodal" class="modal">
+		<div class="modal-content">
+			<span class="close-button">&times;</span>
+			<h1>Please enter a value</h1>
+		</div>
+	</div>
+	<div id="mymodal2" class="modal">
+		<div class="modal-content">
+			<span class="close-button2">&times;</span>
+			<h1>You have exceeded the maximum characters. You can only input 63 characters</h1>
+		</div>
+	</div>
+
+	<div class="header">
+		<h1 class="texts">My ToDo List</h1>
+
+		<p id="first">Input some texts to get started. You can delete a list by clicking on the delete icon. You can mark a 
+			list as done by clicking on the list.
+		</p>
+
+		<input id="userinput" type="text" placeholder="enter items">
+		<button id="enter">Enter</button>
+	</div>
+
+	<ul id="myUL">
+		<li class="bold red" random="23">Notebook</li>
+	</ul>
+	
+	
+	<script type="text/javascript" src="todo.js"></script>
+</body>
+</html>
